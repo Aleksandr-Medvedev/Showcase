@@ -1,0 +1,66 @@
+# Xcode
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Gradle
+/android/build/
+/android/app/build/
+
+
+# Buck
+.buckd
+buck-out
+/android/app/src/main/jni/prebuilt/lib/armeabi-v7a/
+/android/app/src/main/jni/prebuilt/lib/x86/
+/android/app/src/main/gen
+
+# Android
+/android/app/src/main/assets/*
+!/android/app/src/main/.gitkeep
+/android/.idea/
+.idea/*
+.gradle
+local.properties
+*.iml
+
+# Node
+node_modules
+*.log
+.nvm
+
+# OS X
+.DS_Store
+
+# Test generated files
+/android/src/androidTest/assets/AndroidTestBundle.js
+*.js.meta
+
+/coverage
+/third-party
+.tmp
+
+# Code Styles
+!.idea/codeStyleSettings.xml
+
+# iOS
+/ios/Pods
+/ios/build

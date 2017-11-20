@@ -1,0 +1,8 @@
+{
+  "preset": "airbnb",
+  "excludeFiles": [
+    ".eslintrc.js",
+    "app/package.json"
+  ],
+  "validateLineBreaks": null
+}
